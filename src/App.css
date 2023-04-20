@@ -1,38 +1,132 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background: whitesmoke;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ce99d2;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  color: #ffffff;
+  /* background: linear-gradient(
+    to left,
+    rgb(184 140 185),
+    rgba(251, 239, 237, 0)
+  ); */
+  font-family: auto;
+  padding: 15px;
+  background-image: url("./marivi-unsplash.jpeg");
+  background-size: 100%;
+}
+
+body {
+  text-align: justify;
+  font-family: auto;
+}
+
+.navigation {
+  list-style: none;
+  justify-content: left;
+  font-style: none;
+  font-family: none;
+  display: inline-flex;
+  color: #ffffff;
+  font-family: auto;
+}
+
+.navigation a {
+  display: inline-flex;
+  width: 25%;
+  margin-right: 20px;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: auto;
+}
+.navigation li {
+  display: inline-flex;
+  width: 25%;
+  margin-right: 15px;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: auto;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #302431;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-link {
+  font-family: auto;
 }
+
+.container {
+  flex-direction: row-reverse;
+  display: -webkit-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  width: 200;
+  height: 200;
+  justify-content: center;
+  width: 20px;
+  margin: auto;
+  padding: auto;
+}
+
+.transbox {
+  background: linear-gradient(
+    to left,
+    rgb(88, 64, 102),
+    rgba(251, 239, 237, 0)
+  );
+  margin: 15px;
+  border: none;
+  opacity: 1;
+  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-radius: 50px;
+}
+
+/* .navtransbox {
+  background: linear-gradient(
+    to bottom,
+    rgb(88, 64, 102),
+    rgba(166, 142, 137, 0)
+  );
+  margin: 1px;
+  border: #ffffff;
+  opacity: 1;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+} */
+/* .footer {
+  padding: 15px;
+  background-image: url("./marivi-unsplash.jpeg");
+  background-size: 100%;
+} */
+
+/* .div classdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
