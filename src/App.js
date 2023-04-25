@@ -23,10 +23,7 @@ function App() {
         <h1 className="transbox">MEMORIES</h1>
         <h3>Bring your memories all together in one place</h3>
       </header>
-      <body className="container">
-        <h3 className="font-link">
-          Happy times come and go, but the memories stay forever.
-        </h3>
+      <body className="body">
         <div className="image">
           <Imgix
             src="https://images.unsplash.com/photo-1546842931-886c185b4c8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=985&q=80"
@@ -59,19 +56,14 @@ function App() {
             height={200}
           />
         </div>
-        <p className="container">
-          A photograph keeps a moment from running away. A photograph is the
-          pause button of life. Hard to forget such strong memories with the
-          best people.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn More
-        </a>
+        <div className="text">
+          <p>
+            A photograph keeps a moment from running away. A photograph is the
+            pause button of life. Hard to forget such strong memories with the
+            best people.
+          </p>
+          <p>Happy times come and go, but the memories stay forever.</p>
+        </div>
       </body>
       <footer className="footer">
         <p>Contuct us | Instagram | Telegram | LinkedIn </p>
