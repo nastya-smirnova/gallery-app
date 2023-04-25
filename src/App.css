@@ -56,6 +56,29 @@
   font-family: auto;
 }
 
+a {
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 240%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
 .App-link {
   color: #302431;
 }
