@@ -3,13 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Imagegallery from "./components/Imagegallery";
+import Gallery from "./components/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <Imagegallery /> */}
   </React.StrictMode>
 );
 

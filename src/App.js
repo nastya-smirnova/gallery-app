@@ -1,22 +1,10 @@
 import "./App.css";
 import Imgix from "react-imgix";
 import React, { useState } from "react";
-import Imagegallery from "./components/Imagegallery";
+import Gallery from "./components/Gallery";
+import GalleryItem from "./components/GalleryItem";
 
 function App() {
-  // const [imageGallery, setImage] = React.useState([
-  //   { src: "./images/one.jpg", title: "one" },
-  //   { src: "./images/two.jpg", title: "two" },
-  //   { src: "./images/three.jpg", title: "three" },
-  //   { src: "./images/four.jpg", title: "four" },
-  // ]);
-
-  document.addEventListener("click", function (e) {
-    if (e.target.tagName === "IMG") {
-      e.target.remove();
-    }
-  });
-
   return (
     <div className="App">
       <header className="App-header">
@@ -39,41 +27,7 @@ function App() {
         <h3>Bring your memories all together in one place</h3>
       </header>
       <body className="body">
-        <div className="image">
-          <img src="./images/one.jpg" title="one" width={200} height={200} />
-          <img src="./images/two.jpg" title="two" width={200} height={200} />
-          <img
-            src="./images/three.jpg"
-            title="three"
-            width={200}
-            height={200}
-          />
-          <img src="./images/four.jpg" title="four" width={200} height={200} />
-          <Imgix
-            src="http://surl.li/gpwad"
-            alt="missing"
-            width={200}
-            height={200}
-          />
-          <Imgix
-            src="http://surl.li/gpwam"
-            alt="missing"
-            width={200}
-            height={200}
-          />
-          <Imgix
-            src="http://surl.li/gpwar"
-            alt="missing"
-            width={200}
-            height={200}
-          />
-          <Imgix
-            src="http://surl.li/gpwbe"
-            alt="missing"
-            width={200}
-            height={200}
-          />
-        </div>
+        <Gallery />
         <div>
           {/* <button id="back" onclick={back}>
             Back
