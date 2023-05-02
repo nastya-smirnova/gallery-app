@@ -46,6 +46,7 @@
   text-decoration: none;
   font-family: auto;
 }
+
 .navigation li {
   display: inline-flex;
   width: 25%;
@@ -56,7 +57,7 @@
   font-family: auto;
 }
 
-a {
+/* a {
   position: relative;
 }
 
@@ -77,15 +78,7 @@ a::before {
 a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
-}
-
-.App-link {
-  color: #302431;
-}
-
-.font-link {
-  font-family: auto;
-}
+} */
 
 .image {
   flex-wrap: wrap;
@@ -111,9 +104,27 @@ a:hover::before {
   border-radius: 50px;
 }
 
-/* .text {
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  display: inline-flex;
+/* a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+} */
+
+/* a:hover {
+  background-color: whitesmoke;
+  color: rgb(77, 55, 70);
+} */
+
+/* .previous {
+  background-color: whitesmoke;
+  color: #c675ad;
+} */
+
+/* .next {
+  background-color: #c675ad;
+  color: whitesmoke;
+} */
+
+/* .round {
+  border-radius: 60%;
 } */
