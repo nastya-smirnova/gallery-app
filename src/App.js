@@ -1,8 +1,6 @@
 import "./App.css";
-import Imgix from "react-imgix";
-import React, { useState } from "react";
+import React from "react";
 import Gallery from "./components/Gallery";
-import GalleryItem from "./components/GalleryItem";
 
 function App() {
   return (
