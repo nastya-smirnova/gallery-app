@@ -10,29 +10,24 @@ export const AddItemForm = ({ addImage }) => {
 
     setValue("");
   };
-  // const AddItem = (item) => {
-  //   setItems([
-  //     ...items,
-  //     {
-  //       id: item.id,
-  //       title: item.title,
-  //     },
-  //   ]);
+
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="addItemForm">
         <label>
-          Add new image:
           <input
+            className="input"
             type="text"
-            placeholder="Add new?"
+            placeholder="Add new image"
             value={value}
             onChange={(e) => setValue(e.target.value)}
+            required
           />
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
 };
-// };

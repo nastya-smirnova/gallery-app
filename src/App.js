@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import Gallery from "./components/Gallery";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 function App() {
   return (
@@ -24,23 +25,8 @@ function App() {
         <h1 className="transbox">MEMORIES</h1>
         <h3>Bring your memories all together in one place</h3>
       </header>
-      <body className="body">
+      <body>
         <Gallery />
-        <div>
-          {/* <button id="back" onclick={back}>
-            Back
-          </button>
-          <button id="back" onclick={next}>
-            Next
-          </button> */}
-
-          {/* <a href="#" class="previous">
-            &laquo; Previous
-          </a>
-          <a href="#" class="next">
-            Next &raquo;
-          </a> */}
-        </div>
       </body>
     </div>
   );

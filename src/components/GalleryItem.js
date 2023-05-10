@@ -4,7 +4,9 @@ const GalleryItem = ({ item, onDelete }) => {
   return (
     <div>
       <img src={item.src} title={item.title} width={200} height={200} />
-      <button onClick={() => onDelete(item.id)}>Delete</button>
+      <button className="delete" onClick={() => onDelete(item.id)}>
+        Х
+      </button>
     </div>
   );
 };

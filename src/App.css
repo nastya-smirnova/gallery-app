@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background: whitesmoke;
   width: 100%;
 }
@@ -20,7 +19,6 @@
   font-size: 20px;
   color: #ffffff;
   font-family: auto;
-  padding: 15px;
   background-image: url("./marivi-unsplash.jpeg");
   background-size: 100%;
   width: 100%;
@@ -57,36 +55,19 @@
   font-family: auto;
 }
 
-/* a {
-  position: relative;
+.div {
+  display: flex;
+  justify-content: center;
 }
 
-a::before {
-  content: "";
-  position: absolute;
-  width: 240%;
-  height: 2px;
-  border-radius: 2px;
-  background-color: #ffffff;
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-
-a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-} */
-
-.image {
+.images {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
   justify-content: center;
   margin-block-start: 15px;
   margin-block-end: 15px;
+  display: table-caption;
 }
 
 .transbox {
@@ -104,27 +85,77 @@ a:hover::before {
   border-radius: 50px;
 }
 
-/* a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
+/* .sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 } */
 
-/* a:hover {
-  background-color: whitesmoke;
-  color: rgb(77, 55, 70);
-} */
+.container {
+  /* width: 100%;
+  height: 500px;
+  object-fit: cover; */
+  position: relative;
+  width: 100%;
+}
 
-/* .previous {
-  background-color: whitesmoke;
-  color: #c675ad;
-} */
+.container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 
-/* .next {
-  background-color: #c675ad;
-  color: whitesmoke;
-} */
+.delete {
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #3e3d3e;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
 
-/* .round {
-  border-radius: 60%;
-} */
+.delete:hover {
+  background-color: black;
+}
+
+.addItemForm {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  justify-content: center;
+  border: 2px solid rgb(216, 202, 213);
+  border-radius: 50px;
+
+  margin: 15px;
+  margin-right: 1%;
+  padding-left: 20px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: medium;
+  background-color: white;
+}
+
+.submit {
+  justify-content: center;
+  border: 2px solid rgb(216, 202, 213);
+  border-radius: 50px;
+  background-color: white;
+  color: rgb(107, 106, 106);
+
+  margin: 15px;
+  margin-left: 1%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: medium;
+}
