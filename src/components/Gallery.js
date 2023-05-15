@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from "uuid";
 import AddItem, { AddItemForm } from "./AddItemForm";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import ReactHintFactory from "react-hint";
 
 import Lightbox from "./Lightbox";
 uuidv4();
