@@ -18,7 +18,7 @@ export const AddItemForm = ({ addImage }) => {
           <input
             className="input"
             type="text"
-            placeholder="Add new image"
+            placeholder="Add new image 📸"
             value={value}
             onChange={(e) => setValue(e.target.value)}
             required
