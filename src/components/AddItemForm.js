@@ -13,15 +13,21 @@ export const AddItemForm = ({ addImage }) => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="addItemForm">
+      <form
+        onSubmit={handleSubmit}
+        className="addItemForm"
+        action="/action_page.php"
+      >
         <label>
           <input
             className="input"
-            type="text"
+            type="url"
             placeholder="Add new image 📸"
             value={value}
             onChange={(e) => setValue(e.target.value)}
             required
+            pattern="https?://.+"
+            title="Include http://"
           />
         </label>
         <button type="submit" className="submit">
