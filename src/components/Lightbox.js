@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import GalleryItem from "./GalleryItem";
-import Gallery from "./Gallery";
 
 function App() {
-  // To open the lightbox change the value of the "toggler" prop.
   const [item, setToggler] = useState(false);
 
   return (

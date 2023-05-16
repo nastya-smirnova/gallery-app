@@ -11,19 +11,17 @@ uuidv4();
 export const Gallery = ({}) => {
   const [items, setItems] = useState([
     {
-      src: "https://images.unsplash.com/photo-1679939652171-75015fffe7a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      src: "https://images.unsplash.com/photo-1682465135511-2db0f206db6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8TXI0OUV2aDVTa3N8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
       title: "one",
       id: uuidv4(),
-      onDragStart: "handleDragStart",
-      role: "presentation",
     },
     {
-      src: "https://images.unsplash.com/photo-1679941071803-f3a0350c002f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      src: "https://images.unsplash.com/photo-1683489105218-6e1657ca8cc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8TXI0OUV2aDVTa3N8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
       title: "two",
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1679872995990-a9811773f3d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      src: "https://images.unsplash.com/photo-1601815560619-c5aeb2cb9297?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8TXI0OUV2aDVTa3N8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
       title: "three",
       id: uuidv4(),
     },
@@ -33,7 +31,7 @@ export const Gallery = ({}) => {
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
+      src: "https://images.unsplash.com/photo-1683016707500-0ab27d0ebf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fE1yNDlFdmg1U2tzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=60",
       title: "four",
       id: uuidv4(),
     },
@@ -44,9 +42,6 @@ export const Gallery = ({}) => {
   };
 
   const addImage = (imageSrc) => {
-    // if ({ imageSrc } !== { src: { imageSrc } }) {
-    //   return;
-    // }
     setItems([
       ...items,
       {
