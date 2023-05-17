@@ -12,7 +12,7 @@ export const AddItemForm = ({ addImage }) => {
   };
 
   return (
-    <div>
+    <div className="addImageContainer">
       <form
         onSubmit={handleSubmit}
         className="addItemForm"
@@ -22,7 +22,7 @@ export const AddItemForm = ({ addImage }) => {
           <input
             className="input"
             type="url"
-            placeholder="Add new image 📸"
+            placeholder="Link 📸"
             value={value}
             onChange={(e) => setValue(e.target.value)}
             required

@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from "uuid";
 import AddItem, { AddItemForm } from "./AddItemForm";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-
 import Lightbox from "./Lightbox";
 uuidv4();
 
@@ -50,14 +49,15 @@ export const Gallery = ({}) => {
         src: imageSrc,
       },
     ]);
-    console.log(items);
   };
 
   return (
     <div>
       <div className="addItemForm">
         <AddItemForm addImage={addImage} />
-        <Lightbox />
+        <div>
+          <Lightbox items={items} />
+        </div>
       </div>
       {/* <div className="images">
         {items.map((item, index) => (
