@@ -53,10 +53,10 @@ export const Gallery = ({}) => {
 
   return (
     <div>
-      <div className="addItemForm">
+      <div>
         <AddItemForm addImage={addImage} />
       </div>
-      <Lightbox items={items} className="lightbox" />
+      <Lightbox items={items} />
       {/* <div className="images">
         {items.map((item, index) => (
           <GalleryItem item={item} key={index} onDelete={removeItem} />
@@ -71,7 +71,7 @@ export const Gallery = ({}) => {
                   item={item}
                   key={index}
                   onDelete={removeItem}
-                  className="container"
+                  // className="container"
                 />
               </div>
             ))}

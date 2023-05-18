@@ -14,7 +14,7 @@ function Lightbox({ items }) {
   // https://fslightbox.com/react/documentation/updating-props
 
   return (
-    <div className="addImageContainer">
+    <div className="form">
       <button className="viewAllImages" onClick={() => setToggler(!toggler)}>
         View All Images
       </button>

@@ -12,12 +12,8 @@ export const AddItemForm = ({ addImage }) => {
   };
 
   return (
-    <div>
-      <form
-        onSubmit={handleSubmit}
-        className="addItemForm"
-        action="/action_page.php"
-      >
+    <div className="addItemForm">
+      <form onSubmit={handleSubmit} action="/action_page.php" className="form">
         <label>
           <input
             className="input"
