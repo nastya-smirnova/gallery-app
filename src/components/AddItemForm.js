@@ -12,7 +12,7 @@ export const AddItemForm = ({ addImage }) => {
   };
 
   return (
-    <div className="addImageContainer">
+    <div>
       <form
         onSubmit={handleSubmit}
         className="addItemForm"

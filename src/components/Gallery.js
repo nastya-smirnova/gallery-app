@@ -55,10 +55,8 @@ export const Gallery = ({}) => {
     <div>
       <div className="addItemForm">
         <AddItemForm addImage={addImage} />
-        <div>
-          <Lightbox items={items} />
-        </div>
       </div>
+      <Lightbox items={items} className="lightbox" />
       {/* <div className="images">
         {items.map((item, index) => (
           <GalleryItem item={item} key={index} onDelete={removeItem} />
@@ -79,7 +77,7 @@ export const Gallery = ({}) => {
             ))}
           </AliceCarousel>
         ) : (
-          <h2 className="noImages">Ops...no images left</h2>
+          <span className="noImages">Ops...no images left</span>
         )}
       </div>
     </div>
