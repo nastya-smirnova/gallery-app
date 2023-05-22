@@ -9,7 +9,7 @@ function App() {
       <div>
         <header className="App-header">
           <h1 className="transbox">MEMORIES</h1>
-          <h3>Bring your memories all together in one place</h3>
+          <h3 className="h3">Bring your memories all together in one place</h3>
         </header>
       </div>
       <body>
