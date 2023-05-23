@@ -15,6 +15,16 @@ function App() {
       <body>
         <Gallery />
       </body>
+      <footer className="footer-container">
+        <div className="footer">
+          <h3>Want to partner with us?</h3>
+          <p>
+            If you would like to find out some more information, Anastasia is
+            excited to help.
+          </p>
+          <h3 className="contactinfo">smirnova.anastasia.k@gmail.com</h3>
+        </div>
+      </footer>
     </div>
   );
 }
