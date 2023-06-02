@@ -13,18 +13,35 @@ function Lightbox({ items }) {
   // We had to add another state to completely rerender FsLightbox component as it doesn't support updates on image links changes
   // https://fslightbox.com/react/documentation/updating-props
 
+  const reload = () => window.location.reload(true);
+
   return (
-    <div className="form">
-      <button className="viewAllImages" onClick={() => setToggler(!toggler)}>
-        View All Images
-      </button>
-      <FsLightbox
-        key={key}
-        toggler={toggler}
-        sources={items.map((item) => {
-          return item.src;
-        })}
-      />
+    <div>
+      {items.length > 0 ? (
+        <div className="formContainer">
+          <div className="form">
+            <button
+              className="viewAllImages"
+              onClick={() => setToggler(!toggler)}
+            >
+              View All Images
+            </button>
+            <FsLightbox
+              key={key}
+              toggler={toggler}
+              sources={items.map((item) => {
+                return item.src;
+              })}
+            />
+          </div>
+        </div>
+      ) : (
+        <div className="formContainer">
+          <button onClick={reload} className="reloadImages">
+            Reload images
+          </button>
+        </div>
+      )}
     </div>
   );
 }

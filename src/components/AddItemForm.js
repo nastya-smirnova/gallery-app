@@ -12,13 +12,13 @@ export const AddItemForm = ({ addImage }) => {
   };
 
   return (
-    <div className="form">
-      <form onSubmit={handleSubmit} action="/action_page.php" className="form">
+    <div className="actionBarContainer">
+      <form onSubmit={handleSubmit} className="formContainer">
         <label>
           <input
             className="input"
             type="url"
-            placeholder="Link 📸"
+            placeholder="Image Link 📸"
             value={value}
             onChange={(e) => setValue(e.target.value)}
             required
