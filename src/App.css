@@ -1,46 +1,37 @@
 .App {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100vh; */
   background-color: #cbcfd1;
 }
 
-.App-header {
+.headerContainer {
   display: flex;
   justify-content: center;
   background-color: #a2b5bb;
+
   min-height: 10vh;
   flex-direction: column;
   align-items: center;
   font-size: 20px;
   color: #ffffff;
   font-family: auto;
-  /* background-image: url("./retro_pattern.jpeg"); */
-  background-size: 100%;
-  width: 100%;
 
-  /* padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem; */
+  padding: 1rem;
+
+  background-size: 100%;
 }
 
-.App-header .h3 {
+.headerName {
+  border: none;
+  width: auto;
+}
+
+.headerMotto {
   text-align: center;
   font-size: 25px;
 }
-
-/* .transbox {
-  background: linear-gradient(to left, #cfd2cf, rgba(251, 239, 237, 0));
-  margin: 15px;
-  border: none;
-  opacity: 1;
-  padding: 10px;
-  padding-left: 8%;
-  padding-right: 8%;
-  border-radius: 50px;
-  width: auto;
-} */
 
 .container {
   flex-wrap: wrap;
@@ -251,46 +242,40 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.footer-container {
+.footerContainer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   min-height: 20svh;
   margin-top: auto;
+  background-color: #a2b5bb;
+  padding: 1rem;
+
+  font-size: large;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: auto;
 
   text-align: center;
-  justify-content: center;
 
   color: #ffffff;
-  background-color: #a2b5bb;
-  background-size: 100%;
   width: 100%;
-  font-size: large;
 }
 
-.contactinfo {
+.email {
   display: flex;
   justify-content: center;
-
-  margin-left: 25px;
-  margin-right: 25px;
-
-  padding: 1rem;
-
-  font-size: large;
+  flex-direction: column;
 
   color: #7c6b54;
   text-decoration: none;
   font-weight: 800;
+  font-size: medium;
 }
 
-.contactinfo:hover {
+.email:hover {
   color: #ffffff;
   cursor: alias;
 }
@@ -307,7 +292,7 @@
 
 .alice-carousel .alice-carousel__dots-item:not(.__custom) {
   background-color: #ece9e5;
-  padding: 5px;
+  padding: 4px;
 }
 
 .alice-carousel .alice-carousel__dots-item:not(.__custom).__active {

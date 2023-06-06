@@ -6,16 +6,18 @@ import "react-alice-carousel/lib/alice-carousel.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="transbox">MEMORIES</h1>
-        <h3 className="h3">Bring your memories all together in one place</h3>
+      <header className="headerContainer">
+        <h1 className="headerName">MEMORIES</h1>
+        <h3 className="headerMotto">
+          Bring your memories all together in one place
+        </h3>
       </header>
       <main>
         <Gallery />
       </main>
-      <footer className="footer-container">
+      <footer className="footerContainer">
         <div className="footer">
-          <h3>Want to partner with us?</h3>
+          <p>Want to partner with us?</p>
           <p>
             If you would like to find out some more information, Anastasia is
             excited to help.
@@ -23,7 +25,7 @@ function App() {
           <a
             href="mailto:smirnova.anastasia.k@gmail.com?cc=smirnowa.anastasiia@gmail.com&subject=Mail to Anastasia"
             target="_blank"
-            className="contactinfo"
+            className="email"
           >
             smirnova.anastasia.k@gmail.com🔗
           </a>
