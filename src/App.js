@@ -12,7 +12,7 @@ function App() {
           Bring your memories all together in one place
         </h3>
       </header>
-      <main>
+      <main className="mainContent">
         <Gallery />
       </main>
       <footer className="footerContainer">
