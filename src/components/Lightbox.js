@@ -13,7 +13,11 @@ function Lightbox({ items }) {
   // We had to add another state to completely rerender FsLightbox component as it doesn't support updates on image links changes
   // https://fslightbox.com/react/documentation/updating-props
 
-  const reload = () => window.location.reload(true);
+  // const reload = () => window.location.reload(true);
+
+  // const ReloadImages = (imageSrc) => {
+  //   setItems([...images]);
+  // };
 
   return (
     <div>
@@ -36,10 +40,11 @@ function Lightbox({ items }) {
           </div>
         </div>
       ) : (
-        <div className="formContainer">
-          <button onClick={reload} className="reloadImages">
-            Reload images
-          </button>
+        <div>
+          {/* <span className="noImagesMessage">
+              No images left. Please, click the 'Reload Images' button to see
+              images again.
+            </span> */}
         </div>
       )}
     </div>

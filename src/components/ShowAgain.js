@@ -1,24 +1,24 @@
 // import React, { useState } from "react";
+// import images from "./Gallery";
 
-// export const ShowAgain = () => {
-//   const [showAgain, setShowAgain] = useState("");
+// export const ReloadImages = ({ ReloadImages }) => {
+//   const [items, setItems] = useState("");
 
 //   const handleClick = (e) => {
-//     setShowAgain([showAgain + 1]);
+//     e.preventDefault();
+//     setItems("");
 //   };
 
 //   return (
-//     <div>
-//       <button
-//         type="button"
-//         onClick={handleClick}
-//         className="showAgain"
-//         onChange={(e) => setShowAgain(e.target.value)}
-//       >
-//         Show images again {showAgain}
-//       </button>
-//     </div>
+//     <button
+//       type="button"
+//       onClick={handleClick}
+//       className="showAgain"
+//       onChange={(e) => setItems(e.target.value)}
+//     >
+//       Show images again {items}
+//     </button>
 //   );
 // };
 
-// export default ShowAgain;
+// export default ReloadImages;

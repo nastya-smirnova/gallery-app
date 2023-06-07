@@ -1,8 +1,9 @@
 .App {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh; */
+  height: 100%;
+  min-height: 100vh;
   background-color: #cbcfd1;
 }
 
@@ -33,14 +34,14 @@
   font-size: 25px;
 }
 
-.container {
+.imageCaruselContainer {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
   width: 100%;
 }
 
-.container img {
+.imageCaruselContainer img {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -146,16 +147,21 @@
 
 .noImgContainer {
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px;
 }
 
 .noImages {
   display: flex;
   justify-content: center;
 
-  margin-left: 10%;
+  /* margin-left: 10%;
   margin-right: 10%;
   margin-top: 1%;
-  margin-bottom: 10%;
+  margin-bottom: 10%; */
 
   padding-top: 30px;
   padding-bottom: 30px;
@@ -166,6 +172,14 @@
   border: 2px solid rgb(216, 202, 213);
   background-color: #ff9f29;
   color: rgb(255, 255, 255);
+}
+
+.noImagesMessage {
+  justify-content: center;
+  text-decoration: double;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
 }
 
 /* .showAgain {
@@ -223,7 +237,7 @@
   margin-left: 1rem;
   margin-top: 10px;
 
-  margin-top: 10px;
+  margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -242,13 +256,17 @@
 }
 
 .footerContainer {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: 20svh;
-  margin-top: auto;
+  min-height: 20vh;
+
   background-color: #a2b5bb;
+
   padding: 1rem;
+
+  position: relative;
+  width: 100%;
 
   font-size: large;
 }
