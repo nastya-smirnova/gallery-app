@@ -104,7 +104,7 @@ export const Gallery = ({}) => {
       ) : (
         <div className="noImgContainer">
           <span className="noImagesMessage">
-            No images left. Please, click the 'Reload Images' button to see
+            No images left 😢 Please, click the 'Reload Images' button to see
             images again.
           </span>
 
