@@ -23,21 +23,19 @@ function Lightbox({ items }) {
     <div>
       {items.length > 0 ? (
         <div className="formContainer">
-          <div className="form">
-            <button
-              className="viewAllImages"
-              onClick={() => setToggler(!toggler)}
-            >
-              View All Images
-            </button>
-            <FsLightbox
-              key={key}
-              toggler={toggler}
-              sources={items.map((item) => {
-                return item.src;
-              })}
-            />
-          </div>
+          <button
+            className="viewAllImages"
+            onClick={() => setToggler(!toggler)}
+          >
+            View All Images
+          </button>
+          <FsLightbox
+            key={key}
+            toggler={toggler}
+            sources={items.map((item) => {
+              return item.src;
+            })}
+          />
         </div>
       ) : (
         <div>
