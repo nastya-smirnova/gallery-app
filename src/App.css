@@ -10,19 +10,18 @@
   --button-background-color: #8c7ae6;
   --button-hover-background-color: #e1b12c;
   --header-footer-background-color: #b21b76;
+  --button-border-radius: 50px;
 }
 
 .mainContent {
   height: 100%;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 
 .headerContainer {
   display: flex;
   justify-content: center;
   background-color: var(--header-footer-background-color);
-  /* background-color: #e1b12c; */
-  /* background-color: #fbc531; */
 
   min-height: 10vh;
   flex-direction: column;
@@ -37,12 +36,27 @@
 }
 
 .headerName {
-  border: none;
+  text-align: center;
+  font-size: 40px;
+
+  background-color: #7e2e5e;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-bottom: 0rem;
 }
 
 .headerMotto {
   text-align: center;
   font-size: 25px;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .imageCaruselContainer {
@@ -73,7 +87,8 @@
   font-size: 16px;
   padding: 10px 15px;
   border: 2px solid #fffdfd;
-  border-radius: 50%;
+  border-radius: var(--button-border-radius);
+  /* border-radius: 50%; */
 }
 
 .delete:hover {
@@ -91,7 +106,7 @@
   align-items: center;
 
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .formContainer {
@@ -105,7 +120,7 @@
 
 .input {
   border: 2px solid #e1b12c;
-  border-radius: 50px;
+  border-radius: var(--button-border-radius);
 
   width: 200px;
 
@@ -126,7 +141,7 @@
 
 .submit {
   border: 2px solid #ffffff;
-  border-radius: 50px;
+  border-radius: var(--button-border-radius);
   background-color: var(--button-background-color);
   /* background-color: #8c7ae6; */
   color: rgb(255, 255, 255);
@@ -200,7 +215,7 @@
   display: flex;
   justify-content: center;
 
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 10px;
 
   width: 200px;
@@ -211,7 +226,7 @@
   font-size: medium;
 
   border: 2px solid rgb(252, 252, 252);
-  border-radius: 50px;
+  border-radius: var(--button-border-radius);
   background-color: var(--button-background-color);
   /* background-color: #8c7ae6; */
   color: rgb(255, 255, 255);
@@ -237,7 +252,7 @@
   font-size: medium;
 
   border: 2px solid rgb(252, 252, 252);
-  border-radius: 50px;
+  border-radius: var(--button-border-radius);
   background-color: var(--button-background-color);
   /* background-color: #8c7ae6; */
   color: rgb(255, 255, 255);
@@ -279,15 +294,22 @@
   justify-content: center;
   flex-direction: column;
 
-  color: #ffffff;
+  color: #0b0000;
   text-decoration: none;
   font-weight: 800;
   font-size: medium;
+
+  padding: 1rem;
+  background-color: #e5d1ed;
+  border-radius: var(--button-border-radius);
+  border: 2px solid #ffffff;
 }
 
 .email:hover {
-  color: #8c7ae6;
-  cursor: alias;
+  color: #ffffffd0;
+  background-color: #b88de3;
+  border-radius: var(--button-border-radius);
+  padding: 1rem;
 }
 
 .alice-carousel__prev-btn-item {
