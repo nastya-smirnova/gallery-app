@@ -283,6 +283,9 @@
   font-weight: 800;
   font-size: medium;
 
+  /* margin-right: 10px;
+  margin-left: 10px; */
+
   padding: 1rem;
   background-color: #516253;
   border-radius: var(--button-border-radius);
@@ -318,130 +321,4 @@
 
 .alice-carousel .alice-carousel__dots-item:not(.__custom):hover {
   background-color: var(--alice-carousel-dots-hover);
-}
-
-/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ MEDIA QUERY ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
-/* _________⚠️ MEDIA QUERY ⚠️__________ */
-/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ MEDIA QUERY ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
-
-/* Minimum width */
-@media (min-width: 768px) {
-  div {
-    /* background-color: rgb(72, 94, 143); */
-  }
-}
-
-/* Maximum width */
-@media (max-width: 512px) {
-  .actionBarContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-  .formContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .input {
-    display: flex;
-    justify-content: center;
-    width: 250px;
-
-    border: var(--button-input-border);
-    border-radius: var(--button-border-radius);
-    background-color: white;
-
-    font-size: medium;
-  }
-
-  .input:hover {
-    box-shadow: var(--button-box-shadow);
-    border-color: var(--button-hover-background-color);
-  }
-
-  .submit {
-    display: flex;
-    justify-content: center;
-    width: 280px;
-
-    border: var(--button-input-border);
-    border-radius: var(--button-border-radius);
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
-
-    font-size: medium;
-  }
-
-  .submit:hover {
-    background-color: var(--button-hover-background-color);
-    box-shadow: var(--button-box-shadow);
-    color: var(--button-hover-text-color);
-  }
-
-  /* VIEW ALL IMAGES BUTTON  */
-  .viewAllImages {
-    display: flex;
-    justify-content: center;
-    width: 280px;
-
-    border: var(--button-input-border);
-    border-radius: var(--button-border-radius);
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
-
-    font-size: medium;
-  }
-
-  .viewAllImages:hover {
-    background-color: var(--button-hover-background-color);
-    box-shadow: var(--button-box-shadow);
-    color: var(--button-hover-text-color);
-  }
-
-  /* RELOAD IMAGES BUTTON  */
-  .reloadImages {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 280px;
-
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: medium;
-
-    border: var(--button-input-border);
-    border-radius: var(--button-border-radius);
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
-  }
-  .reloadImages:hover {
-    background-color: var(--button-hover-background-color);
-    box-shadow: var(--button-box-shadow);
-    color: var(--button-hover-text-color);
-  }
-
-  .noImagesMessage {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: 600;
-    font-size: 18px;
-
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-
-    background-color: var(--noImagesMessage-background-color);
-  }
 }

@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import Gallery from "./components/Gallery";
 import "react-alice-carousel/lib/alice-carousel.css";
+import "./MediaQuery.css";
 
 function App() {
   return (
