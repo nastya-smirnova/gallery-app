@@ -8,27 +8,27 @@ import Lightbox from "./Lightbox";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1488841714725-bb4c32d1ac94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1660&q=80",
+    src: "https://images.unsplash.com/photo-1553455860-2fa544e14141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdyZWVuc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1400&q=60",
     title: "one",
     id: uuidv4(),
   },
   {
-    src: "https://images.unsplash.com/photo-1522775417749-29284fb89f43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+    src: "https://images.unsplash.com/photo-1594587640199-90ad1cb30c8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     title: "two",
     id: uuidv4(),
   },
   {
-    src: "https://images.unsplash.com/photo-1456421385613-d0666bb96b78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80",
+    src: "https://images.unsplash.com/photo-1605092043492-6ce2570a535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdyZWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     title: "three",
     id: uuidv4(),
   },
   {
-    src: "https://images.unsplash.com/photo-1533979640417-546cbced58b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+    src: "https://images.unsplash.com/photo-1589698272390-0501a07619bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     title: "four",
     id: uuidv4(),
   },
   {
-    src: "https://images.unsplash.com/photo-1488654091480-0a2443430a4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1758&q=80",
+    src: "https://images.unsplash.com/photo-1569850419363-5dd0d3f3b3a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
     title: "four",
     id: uuidv4(),
   },
@@ -37,27 +37,27 @@ const images = [
 export const Gallery = ({}) => {
   const [items, setItems] = useState([
     {
-      src: "https://images.unsplash.com/photo-1488841714725-bb4c32d1ac94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1660&q=80",
+      src: "https://images.unsplash.com/photo-1553455860-2fa544e14141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdyZWVuc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1400&q=60",
       title: "one",
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1522775417749-29284fb89f43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+      src: "https://images.unsplash.com/photo-1594587640199-90ad1cb30c8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
       title: "two",
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1456421385613-d0666bb96b78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80",
+      src: "https://images.unsplash.com/photo-1605092043492-6ce2570a535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdyZWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "three",
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1533979640417-546cbced58b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+      src: "https://images.unsplash.com/photo-1589698272390-0501a07619bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       title: "four",
       id: uuidv4(),
     },
     {
-      src: "https://images.unsplash.com/photo-1488654091480-0a2443430a4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1758&q=80",
+      src: "https://images.unsplash.com/photo-1569850419363-5dd0d3f3b3a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
       title: "four",
       id: uuidv4(),
     },
