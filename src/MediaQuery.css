@@ -119,6 +119,22 @@
     background-color: var(--noImagesMessage-background-color);
   }
 
+  .footerContainer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background-color: var(--header-footer-background-color);
+
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    position: relative;
+
+    font-size: large;
+  }
+
   .email {
     display: flex;
     justify-content: center;

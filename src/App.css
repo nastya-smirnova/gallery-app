@@ -107,7 +107,6 @@
 
 .delete:hover {
   background-color: var(--button-hover-background-color);
-  cursor: default;
   box-shadow: var(--button-box-shadow);
 }
 
@@ -257,6 +256,8 @@
   background-color: var(--header-footer-background-color);
 
   padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 
   position: relative;
 
@@ -280,13 +281,11 @@
 
   color: #ffffff;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: bold;
   font-size: medium;
 
-  /* margin-right: 10px;
-  margin-left: 10px; */
-
   padding: 1rem;
+
   background-color: #516253;
   border-radius: var(--button-border-radius);
   border: 2px solid #ffffff;
