@@ -1,9 +1,9 @@
 /* Minimum width */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   div {
-    /* background-color: rgb(72, 94, 143); */
+    background-color: rgb(72, 94, 143);
   }
-}
+} */
 
 /* Maximum width */
 @media (max-width: 512px) {
@@ -27,7 +27,7 @@
 
     border: var(--button-input-border);
     border-radius: var(--button-border-radius);
-    background-color: white;
+    background-color: var(--background-color-header-input);
 
     font-size: medium;
   }
@@ -99,10 +99,10 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: var(--button-background-color);
-    color: white;
+    color: var(--button-text-color);
     font-size: 16px;
     padding: 10px 15px;
-    border: 2px solid #fffdfd;
+    border: var(--button-email-delete-border);
     border-radius: var(--button-border-radius);
   }
 
@@ -170,7 +170,7 @@
     justify-content: center;
     flex-direction: column;
 
-    color: #ffffff;
+    color: var(--button-text-color);
     text-decoration: none;
     font-weight: 800;
     font-size: small;
@@ -181,11 +181,11 @@
     padding: 1rem;
     background-color: #516253;
     border-radius: var(--button-border-radius);
-    border: 2px solid #ffffff;
+    border: var(--button-email-delete-border);
   }
 
   .email:hover {
-    color: #ffffffd0;
+    color: var(--button-text-color);
     background-color: #e7d45983;
     border-radius: var(--button-border-radius);
     padding: 1rem;
