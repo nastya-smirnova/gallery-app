@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- <img width="881" alt="Screenshot 2023-05-22 at 14 20 31" src="https://github.com/nastya-smirnova/gallery-app/assets/41167754/255c444f-e182-4a3d-b242-729d21f5e8b6"> -->
 
 <img width="1107" alt="Screenshot 2023-06-19 at 11 47 32" src="https://github.com/nastya-smirnova/gallery-app/assets/41167754/50dc5f91-e78c-40fb-ab33-dd039db65541">
+
+<img width="1106" alt="Screenshot 2023-06-19 at 11 47 56" src="https://github.com/nastya-smirnova/gallery-app/assets/41167754/c444c891-eba2-4a5c-a132-61b601934945">
+
+<img width="1107" alt="Screenshot 2023-06-19 at 11 48 12" src="https://github.com/nastya-smirnova/gallery-app/assets/41167754/7ae5274c-4fd5-4279-959f-d4cd8f66f5d8">
