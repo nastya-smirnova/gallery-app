@@ -6,7 +6,7 @@ import "./MediaQuery.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <header className="headerContainer">
         <h1 className="headerName">Memories</h1>
         <h3 className="headerMotto">

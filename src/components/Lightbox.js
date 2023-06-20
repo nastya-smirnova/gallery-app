@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FsLightbox from "fslightbox-react";
 import { v4 as uuidv4 } from "uuid";
+import Gallery from "./Gallery";
 
 const Lightbox = ({ items }) => {
   const [toggler, setToggler] = useState(false);
@@ -32,7 +33,7 @@ const Lightbox = ({ items }) => {
           />
         </div>
       ) : (
-        <div></div>
+        <></>
       )}
     </div>
   );
