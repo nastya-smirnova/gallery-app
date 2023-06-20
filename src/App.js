@@ -4,11 +4,11 @@ import Gallery from "./components/Gallery";
 import "react-alice-carousel/lib/alice-carousel.css";
 import "./MediaQuery.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="headerContainer">
-        <h1 className="headerName">MEMORIES</h1>
+        <h1 className="headerName">Memories</h1>
         <h3 className="headerMotto">
           Bring your memories all together in one place
         </h3>
@@ -24,7 +24,7 @@ function App() {
             excited to help.
           </p>
           <a
-            href="mailto:smirnova.anastasia.k@gmail.com?cc=smirnowa.anastasiia@gmail.com&subject=Mail to Anastasia"
+            href="mailto:smirnova.anastasia.k@gmail.com?cc=smirnowa.anastasiia@gmail.com&subject=Email to Anastasia"
             target="_blank"
             className="email"
           >
@@ -35,6 +35,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
 export default App;

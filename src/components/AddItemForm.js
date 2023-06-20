@@ -23,7 +23,7 @@ export const AddItemForm = ({ addImage }) => {
             onChange={(e) => setValue(e.target.value)}
             required
             pattern="https?://.+"
-            title="Include http://"
+            title="Include http:// or https://"
           />
         </label>
         <button type="submit" className="submit">
